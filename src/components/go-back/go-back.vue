@@ -15,7 +15,7 @@
 </script>
 
 <style lang="stylus" scoped>
-  @import "@stylus/variable"
+  @import "../../stylus/variable.styl"
   .go-back
     position absolute
     top 50%

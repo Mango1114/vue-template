@@ -21,8 +21,8 @@
 </script>
 
 <style lang="stylus" scoped>
-  @import "@stylus/variable"
-  @import "@stylus/mixin"
+  @import "../../stylus/variable.styl"
+  @import "../../stylus/mixin.styl"
 
   .top-bar
     position fixed

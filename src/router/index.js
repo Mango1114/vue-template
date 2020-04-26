@@ -14,15 +14,24 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: Home
+      name: Home,
+      meta: {
+        showFooter: true
+      }
     },
     {
       path: '/login',
-      name: Login
+      name: Login,
+      meta: {
+        showHeader: true
+      }
     },
     {
       path: '/register',
-      name: Register
+      name: Register,
+      meta: {
+        showHeader: true
+      }
     }
   ]
 })

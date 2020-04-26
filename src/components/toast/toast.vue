@@ -24,7 +24,7 @@
 </script>
 
 <style lang="stylus" scoped>
-  @import "@stylus/variable"
+  @import "../../stylus/variable.styl"
   .toast
     position fixed
     bottom 25%

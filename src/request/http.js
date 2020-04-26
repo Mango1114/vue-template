@@ -1,8 +1,8 @@
 /* 处理上传数据，返回数据 */
 import axios from 'axios'
-import router from '@router/index'
-import { isJSON } from '@utils/utils'
-import { getToken } from '@utils/auth'
+import router from '@/router/index'
+import { isJSON } from '@/utils/utils'
+import { getToken } from '@/utils/auth'
 import config, { FAILURE_CODE } from './config'
 
 // 创建axios实例,设置接口请求地址
